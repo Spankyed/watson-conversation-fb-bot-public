@@ -1,0 +1,18 @@
+---
+applications:
+- name: facebook-messenger-bot-demo
+  path: .
+  command: npm start
+  memory: 256M
+  disk_quota: 2048M
+  env:
+    LOG_LEVEL: verbose
+    NODE_ENV: production
+    WEBHOOK_TOKEN: WEBHOOK_TOKEN
+    WORKSPACE_ID: WORKSPACE_ID
+    WORKSPACE_USER: WORKSPACE_USER
+    WORKSPACE_PASS: WORKSPACE_PASS
+    FACEBOOK_SEND_ENDPT: 'https://graph.facebook.com/v2.6/me/messages'
+    FACEBOOK_SEND_TOKEN: 'TOKEN'
+    CONVERSATION_ENDPT: 'https://gateway.watsonplatform.net/conversation/api/v1'
+    CONVERSATION_VERSION: '2016-09-20'

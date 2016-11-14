@@ -1,0 +1,38 @@
+{
+  "name": "watson-conversation-fb-bot",
+  "version": "0.0.1",
+  "description": "A simple integration between facebook messenger and watson conversation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Thoresen",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.1",
+    "babel-polyfill": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.75.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-config-standard-jsx": "^3.2.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-live-server": "0.0.30",
+    "standard": "^8.4.0"
+  }
+}
